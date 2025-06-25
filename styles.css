@@ -37,11 +37,25 @@ p {
 }
 
 #heading__container__mission, #heading__container__testimonials {
-    color: #F7B32B;
+    color: rgb(247, 179, 43, 0.6);
 }
 
 #heading__container__features {
-    color: #2CA6A4;
+    color: rgb(44, 166, 164, 0.5);
+}
+
+.download__button {
+    padding: 0.8em 1em;
+    font-size: 1.5em;
+    border: none;
+    background-color: #2CA6A4;
+    color: white;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.download__button:hover {
+    background-color: #F7B32B;
 }
 
 
@@ -158,6 +172,7 @@ p.intro__container {
 /* Testimonials */
 .testimonials__container {
     padding-top: var(--spacers);
+    padding-bottom: 5em;
 }
 
 .testimonials__bear {
@@ -172,20 +187,18 @@ p.intro__container {
     background-color: green;
 }
 
-
 #testimonials__bear__img {
     width: 70%;
 }
-
 
 .carousel-container {
     margin: 0 auto;
     position: relative;
     width: 50%;
     background: white;
-    border-radius: 10px;
+    border-radius: 1em;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    padding: 20px;
+    padding: 3%;
     box-sizing: border-box;
     text-align: center;
     transition: height 0.4s ease;
@@ -193,8 +206,6 @@ p.intro__container {
 
 .carousel-text {
     display: none;
-    font-size: 18px;
-    margin-bottom: 20px;
 }
   
 .carousel-text.active {
@@ -207,20 +218,18 @@ p.intro__container {
 }
   
 .carousel-buttons button {
-    padding: 6px 12px;
+    padding: 0.5em 1em;
     font-size: 14px;
     border: none;
-    background-color: #007BFF;
+    background-color: #2CA6A4;
     color: white;
-    border-radius: 4px;
+    border-radius: 0.5em;
     cursor: pointer;
 }
   
 .carousel-buttons button:hover {
-    background-color: #0056b3;
+    background-color: #0A2342;
 }
-
-
 
 p.carousel-feedback {
     font-size: 2em;
@@ -232,5 +241,45 @@ p.carousel-person {
     color: #F7B32B;
 }
 
+
+/* DOWNLOAD */
+.download__container {
+    padding-top: var(--spacers);
+    text-align: center;
+}
+
+#heading__container__download {
+    color: rgb(10, 35, 66, 0.5);
+    padding: 5%;
+}
+
+.download__line {
+    width: 30%;
+    margin: auto;
+    border-top: 0.5em solid #F7B32B;
+    padding-bottom: 5%;
+}
+
+#heading__container__download h1 {
+    margin-top: 0;
+    font-size: 5em;
+    margin-bottom: 0.4em;
+}
+
+.heading__container button {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#download__img {
+    width: 85%;
+    float: left;
+}
+
+.download__img__container {
+    width: 30%;
+    float: right;
+    transform: translateY(-95%);
+}
 
 

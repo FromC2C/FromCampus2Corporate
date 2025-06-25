@@ -34,3 +34,11 @@ prevBtn.addEventListener('click', () => {
   showPrevText();
   resetInterval();
 });
+
+
+
+function goToLink() {
+    const url = "https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/"; 
+    window.location.href = url;
+}
+
