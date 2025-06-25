@@ -73,6 +73,11 @@ p {
     width: 10em;
 }
 
+.navbar button {
+    margin-top: 1%;
+    margin-right: 1%;
+    float: right;
+}
 
 /* INTRODUCTION */
 .intro__container {
@@ -246,11 +251,15 @@ p.carousel-person {
 .download__container {
     padding-top: var(--spacers);
     text-align: center;
+
+    /* display: flex;
+    justify-content: center; */
 }
 
 #heading__container__download {
     color: rgb(10, 35, 66, 0.5);
     padding: 5%;
+    transform: translateX(30%);
 }
 
 .download__line {
@@ -271,6 +280,11 @@ p.carousel-person {
     margin-top: 0;
 }
 
+.download__text__container {
+    display: flex;
+    justify-content: center;
+}
+
 #download__img {
     width: 85%;
     float: left;
@@ -279,7 +293,6 @@ p.carousel-person {
 .download__img__container {
     width: 30%;
     float: right;
-    transform: translateY(-95%);
-}
-
+    transform: translateX(-0.1%);
+} 
 
