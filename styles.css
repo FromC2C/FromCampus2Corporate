@@ -160,3 +160,77 @@ p.intro__container {
     padding-top: var(--spacers);
 }
 
+.testimonials__bear {
+    float: left;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials__text {
+    background-color: green;
+}
+
+
+#testimonials__bear__img {
+    width: 70%;
+}
+
+
+.carousel-container {
+    margin: 0 auto;
+    position: relative;
+    width: 50%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: height 0.4s ease;
+}
+
+.carousel-text {
+    display: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+  
+.carousel-text.active {
+    display: block;
+}
+  
+.carousel-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.carousel-buttons button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.carousel-buttons button:hover {
+    background-color: #0056b3;
+}
+
+
+
+p.carousel-feedback {
+    font-size: 2em;
+}
+
+p.carousel-person {
+    font-weight: bold;
+    font-weight: 1.8em;
+    color: #F7B32B;
+}
+
+
+
