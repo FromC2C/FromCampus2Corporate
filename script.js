@@ -38,7 +38,10 @@ prevBtn.addEventListener('click', () => {
 
 
 function goToLink() {
-    const url = "https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/"; 
-    window.location.href = url;
+    const mailingContainer = document.querySelector('.mailing__container');
+    if (mailingContainer) {
+        mailingContainer.scrollIntoView({ behavior: 'smooth' });
+    }
 }
+
 
