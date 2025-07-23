@@ -173,6 +173,12 @@ p.intro__container {
     text-align: center;
 }
 
+.features__container h3 {
+    color: #0A2342;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
 .features__container th, td {
     background-color: white;
     border-spacing: 20px;
