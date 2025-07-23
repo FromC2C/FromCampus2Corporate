@@ -225,10 +225,6 @@ p.intro__container {
     align-items: center;
 }
 
-.testimonials__text {
-    background-color: green;
-}
-
 #testimonials__bear__img {
     width: 70%;
 }
@@ -956,6 +952,10 @@ p.carousel-person {
         font-size: 1.4em;
     }
 
+    h1 {
+        font-size: 2.7em;
+    }
+
     /* INTRODUCTION */
     #intro__logo {
         padding-top: 20%;
@@ -1016,6 +1016,20 @@ p.carousel-person {
         display: block;
         width: 100%;
         margin-bottom: 2em;
+    }
+
+    /* TESTIMONIALS */
+    .testimonials__bear {
+        display: none;
+    }
+
+    .carousel-container {
+        width: 80%;
+        padding-inline: 7%;
+    }
+
+    p.carousel-feedback {
+        font-size: 1.5em;
     }
 
     /* DOWNLOAD */
