@@ -1042,9 +1042,9 @@ p.carousel-person {
         display: none;
     }
 
-    /* #mlb2-27980000.ml-form-embedContainer .ml-form-embedWrapper {
-        margin-left: 18%;
-    } */
+    #mlb2-27980000.ml-form-embedContainer .ml-form-embedWrapper {
+        margin-left: 20%;
+    }
     
 }
 
