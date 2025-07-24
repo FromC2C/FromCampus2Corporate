@@ -932,7 +932,7 @@ p.carousel-person {
 #mlb2-27980000.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p:first-letter {
     color: #ff0000 !important;
 }
-        @media only screen and (max-width: 400px){
+@media only screen and (max-width: 400px){
 
     .ml-form-embedWrapper.embedDefault, .ml-form-embedWrapper.embedPopup { width: 100%!important; }
     .ml-form-formContent.horozintalForm { float: left!important; }
@@ -1042,9 +1042,9 @@ p.carousel-person {
         display: none;
     }
 
-    #mlb2-27980000.ml-form-embedContainer .ml-form-embedWrapper {
+    /* #mlb2-27980000.ml-form-embedContainer .ml-form-embedWrapper {
         margin-left: 18%;
-    }
+    } */
     
 }
 
