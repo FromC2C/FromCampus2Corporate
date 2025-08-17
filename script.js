@@ -36,12 +36,3 @@ prevBtn.addEventListener('click', () => {
 });
 
 
-
-function goToLink() {
-    const mailingContainer = document.querySelector('.mailing__container');
-    if (mailingContainer) {
-        mailingContainer.scrollIntoView({ behavior: 'smooth' });
-    }
-}
-
-

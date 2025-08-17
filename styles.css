@@ -52,6 +52,8 @@ p {
     color: white;
     border-radius: 1em;
     cursor: pointer;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .download__button:hover {
@@ -75,7 +77,7 @@ p {
     margin-top: 0.5%;
 }
 
-.navbar button {
+.navbar a {
     margin-top: 1.8%;
     margin-right: 1%;
     float: right;
@@ -107,10 +109,11 @@ h2.intro__container {
 p.intro__container {
     font-size: 1.8em;
     padding: 0;
-    margin: -1%;
+    margin-top: -1%;
+    padding-bottom: 3%;
 }
 
-.intro__container button {
+.intro__container a {
     margin: 4%;
 }
 
@@ -308,7 +311,7 @@ p.carousel-person {
     margin-bottom: 0.4em;
 }
 
-.heading__container button {
+.heading__container a {
     font-size: 2em;
     margin-top: 0;
 }
@@ -844,7 +847,7 @@ p.carousel-person {
     text-align: left;
     margin-bottom: 0;
     position: relative;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
 #mlb2-27980000.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label {
     font-weight: normal;
